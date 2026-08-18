@@ -23,5 +23,6 @@ urlpatterns = [
     path("homepage/", include("homepage.urls")),
     # Registra la ruta base que te pidieron:
     path('demo/rest/api/', include('demo_rest_api.urls')), 
+    path('landing/api/', include('landing_api.urls')),
 
 ]
